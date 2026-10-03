@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.header, .footer {
+    background-color: #002040;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.nav {
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+}
+.nav a {
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.content {
+    flex: 3;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #90c0f0;
+    margin-left: 100px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
