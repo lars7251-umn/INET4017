@@ -14,3 +14,4 @@ function resetCount() {
 
 let header = document.getElementById("title");
 header.textContent = "This text was set using JavaScript";
+console.log(typeof "100");
